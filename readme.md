@@ -8,6 +8,15 @@ Please find more info about each part in the relevant Readme file ([frontend](fr
 
 When implementing a new feature or fixing a bug, please create a new pull request against `main` from a feature/bug branch and add `@vanessa-cooper` as reviewer.
 
-## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+## Getting started
+
+### Prerequisite
+
+* [Docker](https://docs.docker.com/get-docker/)
+* [Docker Compose](https://docs.docker.com/get-started/08_using_compose/) – this comes included with Docker Desktop for Mac/Windows. You may need to install it manually on other platforms. 
+
+
+1. `docker-compose up` – this may take some time on the first run as the docker images are downloaded. 
+2. Verify the frontend is available at `http://localhost:3001`
+3. Verify the backend is available at `http://localhost:3000/api/ping`
